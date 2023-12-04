@@ -1,0 +1,19 @@
+.login-account{
+    padding: 250px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-tittle{
+    text-transform: uppercase;
+}
+.button-google{
+    padding: 15px 50px;
+}
+.add{
+    background-color: #26a69a;
+    border: 0;
+}
+.add:hover{
+    background-color: #26a69a;
+}

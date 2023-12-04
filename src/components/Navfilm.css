@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navmenu li{
+    display: inline-block;
+    position: relative;
+}
+.navmenu{
+    display: flex;
+    list-style: none;  
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.navmenu a{
+    color: #fff5f5;
+    text-decoration: none;
+    margin: 0 15px;
+    margin-left: 25px;
+}
+.navmenu li a{
+    display: inline-block;
+}
+.navigation{
+    padding: 15px 0;
+    z-index: 3;
+}
+.navmenu a:hover{
+    color: #ea6517;
+}
+.container-nav{
+    background-color: #000;
+    justify-content: space-around;
+}
+.Logo img{
+width: 30%;
+margin-left: 15px;
+}
+.Logo{
+display: flex;
+justify-content: center;
+height: 100px;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.Search input{
+    background-color: #000;
+    color: #fff;
+}
+.Search-border{
+    margin-top: 32px;
+}
+.Search button{
+    display: inline-block;
+    margin-left: 25px;
+    background-color:red;
+    color: white;
+    border-radius: 13%;
+    padding: 5px 10px;
+}
+.Search{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+.Search-logo:hover{
+    cursor: pointer;
+}
+.subnav{
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.subnav a{
+    background-color: white;
+    color: #000;
+}
+.navmenu li:hover .subnav{
+    display: block;
+    position: absolute;
+}
+.menu-nav{
+    background-color: #000;
+}
+.menu li{
+    text-decoration: none;
+}  
+.navitem:hover{
+    color: gray;
+}
+.brand-logo{
+     margin-left: 20px;
+     font-family: Garamond, serif;
+    font-weight: 500;
+}
+.Account-button:hover{
+    color: gray;
+}

@@ -1,0 +1,16 @@
+.modal-show {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 45vmax;
+    z-index: 99;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  .card-img img{
+margin-top: 15px;
+  }
+  .modal-content {
+   align-items: center;
+  }

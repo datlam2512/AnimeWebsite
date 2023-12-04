@@ -1,0 +1,17 @@
+.About{
+    text-align: center;
+    padding: 30px 0;
+}
+.About h1{
+    text-transform: uppercase;
+    font-family: Unica One,sans-serif;
+    font-size: 30px;
+}
+.About p{
+  text-align: left;
+  margin: 25px 100px;
+  font-weight: 400;
+  color: #666;
+  font-family: Karla,sans-serif;
+}
+

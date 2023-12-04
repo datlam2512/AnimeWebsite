@@ -18,7 +18,7 @@ export default function() {
       setValidation(true);
     } else {
       const filmdata = { img, tittle, episode, Year, Nation,info, clip}
-      fetch("https://6535e207c620ba9358ecbed0.mockapi.io/projecttest", {
+      fetch("https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(filmdata)

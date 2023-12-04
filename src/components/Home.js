@@ -9,7 +9,7 @@ export default function Home() {
 
   const Removefunction = id => {
     if (window.confirm(`Are you sure you want to remove ${id}?`)) {
-      fetch(`https://6535e207c620ba9358ecbed0.mockapi.io/projecttest/${id}`, {
+      fetch(`https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm/${id}`, {
         method: "DELETE"
       })
         .then(res => {        
@@ -22,7 +22,7 @@ export default function Home() {
     }
   }
   const [data, setData] = useState([])
-  const baseUrl = `https://6535e207c620ba9358ecbed0.mockapi.io/projecttest`
+  const baseUrl = `https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm`
   useEffect(() => {
     fetch(baseUrl)
       .then(response => response)

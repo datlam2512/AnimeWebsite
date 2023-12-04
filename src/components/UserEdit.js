@@ -15,7 +15,7 @@ export default function UserEdit() {
   const navigate = useNavigate();
   const [validation, setValidation] = useState(false);
   useEffect(() => {
-    fetch(`https://6535e207c620ba9358ecbed0.mockapi.io/projecttest/${FilmID}`)
+    fetch(`https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm/${FilmID}`)
       .then((res) => res.json())
       .then((resp) => {
         idchange(resp.id);
@@ -39,7 +39,7 @@ export default function UserEdit() {
       const filmdata = { img, tittle, episode, Year, Nation, info, clip };
 
       fetch(
-        `https://6535e207c620ba9358ecbed0.mockapi.io/projecttest/${FilmID}`,
+        `https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm/${FilmID}`,
         {
           method: "PUT",
           headers: { "content-type": "application/json" },

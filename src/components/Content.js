@@ -10,7 +10,7 @@ export default function Content() {
   const [films,setFilm]= useState([])
   const {theme, toggle, dark}= useContext(ThemeContext)
   const [data, setData] = useState([])
-  const baseUrl = `https://6535e207c620ba9358ecbed0.mockapi.io/projecttest`
+  const baseUrl = `https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm`
   useEffect(() => {
     fetch(baseUrl)
       .then(response => response)

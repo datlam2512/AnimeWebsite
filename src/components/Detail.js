@@ -16,7 +16,7 @@ export default function Detail() {
   const [isOpen, setIsOpen] = useState(false);
   const {theme, toggle, dark}= useContext(ThemeContext)
   useEffect(() => {
-    fetch(`https://6535e207c620ba9358ecbed0.mockapi.io/projecttest/${FilmID}`).then((res) => {
+    fetch(`https://65450fc75a0b4b04436d8f9a.mockapi.io/ListFilm/${FilmID}`).then((res) => {
         return res.json();
     }).then((resp) => {
       setData(resp);
